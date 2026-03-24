@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23f97316'/%3E%3Ctext x='50' y='70' font-size='48' text-anchor='middle' fill='white' font-weight='bold'%3EWP%3C/text%3E%3C/svg%3E" />
+    <title>50,000 FREE Visitors to ANY Website</title>
+    <meta name="description" content="Get 50,000 FREE visitors delivered to any website plus 18 traffic generating memberships at no cost. Start now!" />
+    <meta name="author" content="WorldProfit" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <meta property="og:title" content="50,000 FREE Visitors to ANY Website" />
+    <meta property="og:description" content="Get 50,000 FREE visitors delivered to any website plus 18 traffic generating memberships at no cost. Start now!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e584b91e-2534-46df-9f7e-11d3b5c6d8ee/id-preview-50acf2f6--81c60f89-ce1e-462f-922b-053ee5764bef.lovable.app-1761826666650.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@WorldProfit" />
+    <meta name="twitter:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e584b91e-2534-46df-9f7e-11d3b5c6d8ee/id-preview-50acf2f6--81c60f89-ce1e-462f-922b-053ee5764bef.lovable.app-1761826666650.png" />
+    
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Inter', sans-serif;
+        background: linear-gradient(145deg, #0a0c12 0%, #0f1119 100%);
+        color: #eef2ff;
+        line-height: 1.5;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .container {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem;
+      }
+
+      /* header / nav - komplett entfernt, kein Logo mehr */
+      .navbar {
+        display: none;
+      }
+
+      /* hero */
+      .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 3rem;
+      }
+
+      .hero-tag {
+        background: rgba(249,115,22,0.2);
+        padding: 0.3rem 1rem;
+        border-radius: 40px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: #f97316;
+        margin-bottom: 1.5rem;
+        display: inline-block;
+        border: 1px solid rgba(249,115,22,0.4);
+      }
+
+      h1 {
+        font-size: 3.2rem;
+        font-weight: 800;
+        line-height: 1.2;
+        background: linear-gradient(to right, #FFFFFF, #FFB347, #FF8C42);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        max-width: 900px;
+        margin-bottom: 1rem;
+      }
+
+      .subhead {
+        font-size: 1.2rem;
+        color: #b9c7e6;
+        max-width: 680px;
+        margin: 0 auto 1.5rem;
+      }
+
+      .stats {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 2rem 0 1rem;
+      }
+
+      .stat-item {
+        background: rgba(255,255,255,0.03);
+        backdrop-filter: blur(12px);
+        padding: 0.5rem 1.2rem;
+        border-radius: 50px;
+        font-weight: 600;
+        border: 1px solid rgba(255,255,255,0.1);
+      }
+
+      .stat-number {
+        font-size: 1.6rem;
+        font-weight: 800;
+        color: #ff9f4a;
+        margin-right: 6px;
+      }
+
+      /* main card */
+      .card {
+        background: rgba(18, 22, 35, 0.7);
+        backdrop-filter: blur(16px);
+        border-radius: 2.5rem;
+        border: 1px solid rgba(255,255,255,0.1);
+        padding: 2.5rem;
+        margin: 2rem 0 3rem;
+        box-shadow: 0 25px 45px -12px rgba(0,0,0,0.5);
+      }
+
+      .form-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+      }
+
+      /* benefits list - komplett entfernt (die 4 Icons) */
+      .benefits-list {
+        display: none;
+      }
+
+      /* NEW FORM STYLES (SendSteed integration) */
+      .sendsteed-form {
+        width: 100%;
+        max-width: 550px;
+        margin: 0 auto;
+        background: rgba(0,0,0,0.3);
+        padding: 1.8rem;
+        border-radius: 2rem;
+        border: 1px solid rgba(249,115,22,0.4);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      }
+
+      .input-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.8rem;
+        justify-content: center;
+      }
+
+      .email-input-custom {
+        flex: 1;
+        min-width: 200px;
+        background: #0f1119;
+        border: 1px solid #2d2f3e;
+        padding: 1rem 1.2rem;
+        border-radius: 60px;
+        font-size: 1rem;
+        color: white;
+        font-family: 'Inter', sans-serif;
+        outline: none;
+        transition: all 0.2s;
+      }
+
+      .email-input-custom:focus {
+        border-color: #f97316;
+        box-shadow: 0 0 0 3px rgba(249,115,22,0.2);
+      }
+
+      .submit-btn {
+        background: linear-gradient(95deg, #f97316, #ea580c);
+        border: none;
+        padding: 0.9rem 2rem;
+        border-radius: 60px;
+        font-weight: 700;
+        font-size: 1rem;
+        color: white;
+        cursor: pointer;
+        transition: transform 0.2s, box-shadow 0.2s;
+        font-family: 'Inter', sans-serif;
+        letter-spacing: 0.3px;
+        box-shadow: 0 4px 12px rgba(249,115,22,0.3);
+      }
+
+      .submit-btn:hover {
+        transform: scale(1.02);
+        background: linear-gradient(95deg, #ff822f, #f75e0c);
+        box-shadow: 0 8px 20px rgba(249,115,22,0.4);
+      }
+
+      .form-note {
+        font-size: 0.75rem;
+        color: #a0a9c7;
+        margin-top: 1rem;
+        text-align: center;
+      }
+
+      .disclaimer {
+        text-align: center;
+        font-size: 0.75rem;
+        margin-top: 2rem;
+        color: #8f9bb3;
+        border-top: 1px solid rgba(255,255,255,0.08);
+        padding-top: 1.5rem;
+      }
+
+      .membership-showcase {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        margin: 2rem 0 0;
+      }
+
+      .member-card {
+        background: rgba(0,0,0,0.35);
+        border-radius: 1.2rem;
+        padding: 0.6rem 1.2rem;
+        font-size: 0.8rem;
+        font-weight: 500;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        border: 1px solid rgba(255,255,255,0.05);
+      }
+
+      footer {
+        text-align: center;
+        padding: 2rem 0 1rem;
+        font-size: 0.8rem;
+        color: #6f7a9e;
+        border-top: 1px solid rgba(255,255,255,0.05);
+        margin-top: 2rem;
+      }
+
+      @media (max-width: 680px) {
+        h1 { font-size: 2.3rem; }
+        .card { padding: 1.5rem; }
+        .sendsteed-form { padding: 1.2rem; }
+        .container { padding: 1rem; }
+      }
+
+      .recaptcha-token {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- navbar komplett entfernt - kein WorldProfit Logo mehr -->
+
+      <!-- hero section -->
+      <div class="hero">
+        <span class="hero-tag">🚀 LIMITED FREE OFFER</span>
+        <h1>50,000 FREE Visitors<br>Delivered to ANY Website</h1>
+        <p class="subhead">Zero cost. Zero tricks. Real human-quality traffic + 18 premium traffic memberships included. Start scaling now.</p>
+        <div class="stats">
+          <div class="stat-item"><span class="stat-number">50k+</span> visitors/mo</div>
+          <div class="stat-item"><span class="stat-number">18</span> traffic tools</div>
+          <div class="stat-item"><span class="stat-number">100%</span> free forever</div>
+        </div>
+      </div>
+
+      <!-- Main CARD with custom SendSteed form -->
+      <div class="card">
+        <div class="form-grid">
+          <!-- benefits list komplett entfernt - keine Icons mehr (🎯 📈 🎁 ⚡ weg) -->
+
+          <!-- EXACT FORM CODE: sendsteed subscription with hidden fields -->
+          <form method="post" action="https://www.sendsteed.com/subscribe/" class="sendsteed-form">
+            <div class="input-group">
+              <input name="e122091" required="" type="text" placeholder="your@email.com" class="email-input-custom" autocomplete="email">
+              <!-- hidden fields as provided -->
+              <input type="hidden" name="lllid" value="122091">
+              <input type="hidden" name="lluid" value="sandyarta">
+              <input type="hidden" name="redirect" value="">
+              <input type="hidden" name="source" value="nb50k">
+              <button type="submit" class="submit-btn">🚀 Claim My 50k Visitors →</button>
+            </div>
+            <div class="form-note">✅ No credit card • Instant access • Free traffic memberships included</div>
+          </form>
+
+          <!-- additional trust elements: recaptcha token (hidden) -->
+          <div style="display: none;">
+            <input type="hidden" id="recaptchaToken" name="recaptcha_token">
+          </div>
+
+          <div class="membership-showcase">
+            <div class="member-card">📧 Viral Mailer Pro</div>
+            <div class="member-card">🌐 Traffic Exchange Elite</div>
+            <div class="member-card">📊 Ad Network Access</div>
+            <div class="member-card">🔥 Solo Ads System</div>
+            <div class="member-card">🚀 14+ more tools</div>
+          </div>
+          <div class="disclaimer">
+            🎁 Your 50,000 visitors package will be delivered within 24-48h after email confirmation. Plus instant access to 18 traffic-generating memberships — completely free. No subscription fees.
+          </div>
+        </div>
+      </div>
+
+      <!-- feature section with details -->
+      <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: space-between; margin-top: 1rem;">
+        <div style="flex:1; min-width: 200px; background: rgba(255,255,255,0.02); padding: 1.2rem; border-radius: 1.5rem;">
+          <h3 style="margin-bottom: 0.5rem; font-size: 1.2rem;">✨ How it works</h3>
+          <p style="color:#cbd5e6; font-size: 0.9rem;">1. Enter your email → 2. Confirm your spot → 3. Receive 50,000 targeted visitors + 18 premium memberships. Simple as that.</p>
+        </div>
+        <div style="flex:1; min-width: 200px; background: rgba(255,255,255,0.02); padding: 1.2rem; border-radius: 1.5rem;">
+          <h3 style="margin-bottom: 0.5rem; font-size: 1.2rem;">🏆 Trusted by 12,000+ marketers</h3>
+          <p style="color:#cbd5e6; font-size: 0.9rem;">Since 2002, WorldProfit delivers real traffic solutions. No bots, just high-intent visitors.</p>
+        </div>
+        <div style="flex:1; min-width: 200px; background: rgba(255,255,255,0.02); padding: 1.2rem; border-radius: 1.5rem;">
+          <h3 style="margin-bottom: 0.5rem; font-size: 1.2rem;">🎯 Any niche welcome</h3>
+          <p style="color:#cbd5e6; font-size: 0.9rem;">E-commerce, blogs, affiliate offers, SaaS — we drive visitors that convert.</p>
+        </div>
+      </div>
+
+      <!-- Footer: only privacy line -->
+      <footer>
+        <p>🔒 Privacy assured | No spam | Instant free access</p>
+      </footer>
+    </div>
+
+    <!-- Recaptcha script integration -->
+    <script src="https://www.google.com/recaptcha/api.js?render=6LdiFi4rAAAAAEMbuszJ61ILOBJDNb0A3Ha0jLlW"></script>
+    <script>
+      // recaptcha token injection
+      if (typeof grecaptcha !== 'undefined') {
+        grecaptcha.ready(function() {
+          grecaptcha.execute('6LdiFi4rAAAAAEMbuszJ61ILOBJDNb0A3Ha0jLlW', {action: 'signup'})
+            .then(function(token) {
+              var tokenField = document.getElementById('recaptchaToken');
+              if (tokenField) tokenField.value = token;
+            });
+        });
+      }
+
+      // form submit handler for UX feedback
+      const mainForm = document.querySelector('form[action="https://www.sendsteed.com/subscribe/"]');
+      if (mainForm) {
+        mainForm.addEventListener('submit', function(e) {
+          const btn = mainForm.querySelector('.submit-btn');
+          const originalText = btn.innerText;
+          btn.innerText = '✈️ Sending ...';
+          setTimeout(() => { btn.innerText = originalText; }, 1500);
+        });
+      }
+
+      // email field interaction
+      const emailField = document.querySelector('input[name="e122091"]');
+      if (emailField) {
+        emailField.addEventListener('focus', () => {
+          emailField.style.borderColor = '#f97316';
+        });
+        emailField.addEventListener('blur', () => {
+          if (!emailField.style.borderColor) emailField.style.borderColor = '#2d2f3e';
+        });
+      }
+    </script>
+    <!-- flock analytics script -->
+    <script defer src="https://50000.worldprofit.ca/~flock.js" data-proxy-url="https://50000.worldprofit.ca/~api/analytics"></script>
+  </body>
+</html>
